@@ -1,6 +1,8 @@
 # TL-WN725N_V2 -> Odroid XU4
 >Note : Tested on Odroid XU4 - Kernel `4.14.5-92`
+
 `0bda:8179 Realtek Semiconductor Corp. RTL8188EUS 802.11n Wireless Network Adapter`
+
 Odroid XU4 image can be download from here [Odroid Ubuntu Image](https://odroid.in/ubuntu_16.04lts/)
 
 Personally i used this latest image [Ubuntu 16.04.3-4.14](https://odroid.in/ubuntu_16.04lts/ubuntu-16.04.3-4.14-mate-odroid-xu4-20171212.img.xz)
