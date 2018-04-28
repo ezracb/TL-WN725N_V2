@@ -74,7 +74,7 @@ make modules_prepare
 ### 7. Download Driver
 Clone from Github [lwfinger](https://github.com/lwfinger/rtl8188eu)
 ```
-git clone https://github.com/lwfinger/rtl8188eu
+git clone https://github.com/ezracb/TL-WN725N_V2.git
 ```
 
 ### 8. Build
@@ -95,9 +95,10 @@ modprobe 8188eu
 
 
 ### 10. Test Wifi
+```
 lsmod
 iwlist wlan0 scan
-
+```
 
 ### 11. Configure
 ```
