@@ -39,7 +39,7 @@ cd /usr/src
 ln -s linux-odroidxu4-4.14.y linux
 ```
 
-### 3. check kernel version
+### 3. Check Kernel Version
 NOTE: extraversion should be with minus e.g. `4.14.5-92` -> extraversion is `-92`
 ```
 cd /usr/src/linux
@@ -62,8 +62,9 @@ cp /usr/src/linux-headers-$(uname -r)/Module.symvers /usr/src/linux
 ```
 
 ### 5. Install Ncurses Library
+```
 apt-get install libncurses5-dev libssl-dev
-
+```
 
 ### 6. Run Kernel Source Configuration
 >NOTE: just exit
